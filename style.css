@@ -1,0 +1,111 @@
+/* ===== Reset básico ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===== Corpo da página ===== */
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: #fff;
+  padding: 20px;
+}
+
+/* ===== Container vertical ===== */
+.container {
+  display: flex;
+  flex-direction: column; /* Layout vertical */
+  gap: 20px;              /* Espaço entre os elementos */
+  width: 100%;
+  max-width: 400px;       /* Limita largura para celular */
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 40px 30px;
+  border-radius: 25px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.3);
+  backdrop-filter: blur(12px);
+  transition: all 0.3s ease;
+}
+
+
+/* ===== Selects grandes e estilizados ===== */
+select {
+  padding: 16px 20px;
+  border-radius: 15px;
+  border: none;
+  font-size: 18px;
+  outline: none;
+  transition: all 0.3s ease;
+  background: rgba(255, 255, 255, 0.9);
+  cursor: pointer;
+  width: 100%;           /* Ocupa toda largura do container */
+}
+
+select:hover {
+  background: rgba(255, 255, 255, 1);
+  transform: scale(1.03);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* ===== Botão grande e destacado ===== */
+button {
+  padding: 20px 0;        /* Altura grande, ocupa largura inteira */
+  border-radius: 20px;
+  border: none;
+  background: linear-gradient(135deg, #ff6a88, #ff2d6d);
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;            /* Ocupa toda largura do container */
+  box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 35px rgba(0,0,0,0.5);
+  background: linear-gradient(135deg, #ff2d6d, #ff1a5b);
+}
+
+/* ===== Resultado destacado ===== */
+#resultado {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  padding: 18px;
+  border-radius: 18px;
+  background-color: rgba(0,0,0,0.25);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* ===== Media queries para telas maiores (tablet/desktops) ===== */
+@media (min-width: 500px) {
+  .container {
+    max-width: 450px;
+    padding: 50px 40px;
+  }
+
+  select {
+    font-size: 20px;
+    padding: 18px 20px;
+  }
+
+  button {
+    font-size: 22px;
+    padding: 22px 0;
+  }
+
+  #resultado {
+    font-size: 22px;
+    padding: 20px;
+  }
+}

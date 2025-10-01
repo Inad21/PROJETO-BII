@@ -1,0 +1,62 @@
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML Test </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+
+<select id="select1">
+  <option value="RS Instrution">RSInstrution,CCD,Check</option>
+  <option value="MODBUSRTU">MODBUS RTU (host,IVRD,IVMR)</option>
+  <option value="SLAVE">MODBUS RTU (SLAVE)</option>
+</select>
+
+<select id="select2">
+  <option value="BAUDRRATE38400">38400</option>
+  <option value="BAUDRRATE19200">19200</option>
+  <option value="BAUDRRATE9600">9600</option>
+  <option value="BAUDRRATE4800">4800</option>
+  <option value="BAUDRRATE2400">2400</option>
+  <option value="BAUDRRATE1200">1200</option>
+  <option value="BAUDRRATE600">600</option>
+  <option value="BAUDRRATE300">300</option>
+</select>
+
+
+<select id="select3">
+  <option value="1stop">1Stop</option>
+  <option value="2stop">2Stop</option>
+</select>
+
+<select id="select4">
+  <option value="even">Even</option>
+  <option value="odd">ODD</option>
+  <option value="none">NONE</option>
+</select>
+
+
+<select id="select5">
+  <option value="8bit">8 bits</option>
+  <option value="7bit">7 bits</option>
+</select>
+
+
+
+<button onclick="mostrarResultado()">Mostrar Resultado</button>
+ 
+<p id="resultado">
+
+</p>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
