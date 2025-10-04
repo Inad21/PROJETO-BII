@@ -22,7 +22,7 @@ background: linear-gradient(135deg, #000000, #2674fc);
   transition: all 0.3s ease;
 }
 
-p{
+#resultado{
 
  color: rgb(255, 255, 255);
  border-style: solid;
@@ -31,11 +31,15 @@ p{
 margin-left: 9px;
 margin-right: 9px; 
  border-radius: 10px;
- font-size: 50px;
- padding: 10px;
+ font-size: 40px;
+ padding-left: 5px;
+padding-right: 50px;
+ padding-block-end: 60px;
  background: linear-gradient(135deg, #000000, #2674fc);
 color: #ffffff;
 }
+
+
  
 button{
 margin-left: 120px;
@@ -119,6 +123,7 @@ select:hover {
   transform: scale(1.03);
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
+
 
 
 
