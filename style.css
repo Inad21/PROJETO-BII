@@ -1,5 +1,5 @@
 body{
-margin-top: 250px;
+margin-top: 50px;
 margin-left: 150px;
 margin-right: 150px; 
 margin: 40px,40px;
@@ -119,4 +119,5 @@ select:hover {
   transform: scale(1.03);
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
+
 
