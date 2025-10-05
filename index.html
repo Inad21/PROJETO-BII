@@ -3,21 +3,23 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>PROJET  </title>
+  <title>HTML Test </title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 
 
 <body>
-
-<select id="select1">
+<H2 class="PP">PROTOCOLO</H2>
+<select  id="select1" >
   <option value="RS Instrution">RSInstrution,CCD,Check</option>
-  <option value="MODBUSRTU">MODBUS RTU (host,IVRD,IVMR)</option>
+  <option value="MODBUSRTU">MODBUS RTU (IVRD,IVWR) MASTER</option>
   <option value="SLAVE">MODBUS RTU (SLAVE)</option>
+<option value="FX2N">MITSUBISHI FX2N (delta)</option>
 </select>
-
+<H2>BAUDRATE</H2>
 <select id="select2">
+
   <option value="BAUDRRATE38400">38400</option>
   <option value="BAUDRRATE19200">19200</option>
   <option value="BAUDRRATE9600">9600</option>
@@ -28,12 +30,14 @@
   <option value="BAUDRRATE300">300</option>
 </select>
 
-
+<H2>STOB BIT</H2>
 <select id="select3">
   <option value="1stop">1Stop</option>
   <option value="2stop">2Stop</option>
 </select>
 
+
+<H2>PARIDADE</H2>
 <select id="select4">
   <option value="even">Even</option>
   <option value="odd">ODD</option>
@@ -41,6 +45,7 @@
 </select>
 
 
+<H2>FRAME</H2>
 <select id="select5">
   <option value="8bit">8 bits</option>
   <option value="7bit">7 bits</option>
@@ -59,5 +64,5 @@
     <script src="main.js"></script>
 </body>
 
-
 </html>
+
