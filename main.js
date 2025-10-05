@@ -4,8 +4,9 @@ function mostrarResultado() {
 
      switch (document.getElementById("select1").value) {
     case "RS Instrution": num1 = "0011" ; break;
-    case "MODBUSRTU": num1 = "0001" ; break;
+    case "MODBUSRTU": num1 = "100" ; break;
     case "SLAVE": num1= "0010" ;break;
+    case "FX2N": num1= "0000" ;break;
     default: num1 = "";
   }
 
