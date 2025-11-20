@@ -2,32 +2,32 @@ body{
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 background: linear-gradient(135deg, #000000, #2674fc);
   color: #fff;
-
+  width:80%;
+margin: auto;
 }
 h2{
  padding-left: 20px;
  text-align: center;
  margin-bottom: 0%;
+ 
 }
-
-
 .PP{
   margin-top: 50px;
+  font-size: 30px;
 }
 #resultado{
  color: rgb(255, 255, 255);
  text-align:center;
- margin-right: 0px;
- border-radius: 4px;
+ margin-right: 2px;
+ border-radius: 10px;
  font-size: 35px;
- background: linear-gradient(135deg, #000000, #2674fc);
-color: #ffffff;
+ background-color: #ffffff;
+color: #000000;
 }
-
 button{
 margin-left: 120px;
 border-style: solid;color: black;
-border-radius: 30px;
+border-radius: 20px;
 margin-top: 50px;
 margin-left: 20px;
 padding: 30px;
@@ -40,47 +40,32 @@ font-size: medium;
 button:hover {
   transform: scale(1.05);
   box-shadow: 0 12px 35px rgba(0,0,0,0.5);
-
 }
-
 #select1{
 margin: 0px;
 padding: 0%;
-font-size: medium;
- font-size: 20px;
+ font-size: 30px;
 }
-
 #select2{
-font-size: medium;
-transform: scale(1.05);
- font-size: 20px;
+margin: 0px;
+padding: 0%;
+font-size: 30px;
 }
 #select3{
-
-font-size: medium;
-transform: scale(1.05);
- font-size: 20px;
+margin: 0px;
+padding: 0%;
+font-size: 30px;
 }
-
 #select4{
-
-
-font-size: medium;
-transform: scale(1.05);
-font-size: 20px;
+font-size: 30px;
+margin: 0px;
+padding: 0%;
 }
-
-
 #select5{
-
-font-size: medium;
-transform: scale(1.05);
-font-size: 20px;
+font-size: 30px;
+margin: 0px;
+padding: 0%;
 }
-
-
-
-
 
 select{
    border-radius: 50px;
@@ -97,6 +82,22 @@ select:hover {
   transform: scale(1.03);
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
+select1{
+   border-radius: 50px;
+  text-align: center;
+outline: none;
+  transition: all 0.3s ease;
+  background: rgba(255, 255, 255, 0.9);
+  cursor: pointer;
+  width: 100%;   
+  padding: auto; 
+}
+select1:hover {
+  background: rgba(255, 255, 255, 1);
+  transform: scale(1.03);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
 
 
 
